@@ -7,7 +7,7 @@ public class createFile {
 
         File f = new File("D:\\Future\\JavaTutorialbyApnaCollege\\fileHandling\\newfile.txt"); // location of file
         try {
-            if (f.createNewFile()) {
+            if (f.createNewFile()) { // check if file already exists of not
                 System.out.println("File Successfully created.");
             } else {
                 System.out.println("File already Exists...!");
